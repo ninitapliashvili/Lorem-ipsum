@@ -7,6 +7,9 @@
     position: fixed;
     z-index: 100;
 }
+.burger-button{
+    display: none;
+}
 .nav-li{
     display: inline-block;
     padding-left: 20px;
@@ -28,6 +31,7 @@
     background-image: url(../images/rectangle-17.png);
     background-repeat: no-repeat;
     width: 100%;
+    background-position: center;
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -35,7 +39,7 @@
 }
 .cover{
     width: 100%;
-    height: 900px;
+    height: 100%;
     background-color: #0000FD;
     opacity: 22%;
 }
@@ -52,23 +56,24 @@
 }
 .information{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    height: 601px;
 }
 .about-info{
   width: 50%;
-  height: 601px;
-  padding-left: 86px;
-  padding-right: 86px;
-  padding-top: 90px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
+  height: 100%;
+  padding-left: 46px;
+  padding-right: 46px;
+  padding-top: 45px; 
 }
 .information-image{
     background-image: url(../images/Rectangle\ 2.png);
     width: 50%;
-    height: 601px;
+    height: 100%;
+    background-repeat: no-repeat;
    
 }
 .info-title{
@@ -78,7 +83,6 @@
     text-align: left;
     opacity: 100%;
     margin-bottom: 24px;
-
 }
 .info-text{
     font-size: 16px;

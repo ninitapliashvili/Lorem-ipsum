@@ -1,0 +1,122 @@
+@media (max-width: 1069px)
+{
+    .navigation{
+        display: none;
+    }
+    .burger-button{
+        width: 30px;
+        height: 30px;
+        color: white;
+        display: block;
+    }
+
+
+    .main-caption{
+        font-size: 50px;
+    }
+
+    .info-text{
+        font-size: 15px;
+       height: 80px;
+       width: 300px;
+        
+    }
+   
+    .element{
+        width: 271px;
+        height: 274px;
+        padding: 5px 9px 4px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+}
+@media(max-width: 900px){
+   
+    .information{
+        height: 450px;
+    }
+    .image{
+        height: 850px;
+    }
+   
+}
+@media (max-width:826px){
+    .info-title{
+        font-size: 35px;
+    }
+    .information{
+        height: 370px;
+    }
+    .image{
+        height: 800px;
+    }
+}
+
+@media(max-width: 791px){
+    .information{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 700px;
+    }
+    .section-text{
+        width: 500px;
+    }
+    .information-image{
+        width: 100%;
+        height: 50%;
+        background-size: cover;
+    }
+    .info-title{
+
+        font-family: 'Lato', sans-serif; 
+        font-size: 50px;
+        text-align: left;
+        opacity: 100%;
+        margin-bottom: 24px;
+    }
+    .info-text{
+        font-size: 16px;
+       height: 128px;
+       width: 457px;
+    }    
+    .about-info{
+        width: 100%; 
+        height: 50%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .info-title{
+        font-size: 25px;   
+        width: 60%; 
+    }
+    .image{
+        height: 700px;
+    }
+}
+
+
+@media(max-width: 518px){
+    .section-text{
+        width: 300px;
+        font-size: 13px;
+    }
+    .section-description{
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+    .image{
+        height: 650px;
+    }
+    
+}
+@media(max-width:450px){
+    .info-text{
+       width: 307px;
+    }    
+    .image{
+        height: 600px;
+    }
+}
